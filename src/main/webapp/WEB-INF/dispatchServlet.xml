@@ -5,6 +5,6 @@
 
     <bean id="messageSource"
           class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-        <property name="basename" value="/WEB-INF/resource/message"/>
+        <property name="basename" value="/resource/messages.properties"/>
     </bean>
 </beans>
